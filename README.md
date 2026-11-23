@@ -10,8 +10,9 @@ sum up the world news of Monday 23 November 2026 in a single image.
 
 `main.ts` (Node 22, standard library only) copies the bundled `entry.png`
 (1024×1024) to `/output/entry.png` — or to `$MAKEFUN_OUTPUT_DIR/entry.png`
-outside the grader. The image is drawn by `draw.py` (Pillow) from the five
-stories researched in `NOTES.md`:
+outside the grader, and verifies the copy is complete by size. The image
+was drawn with a Pillow program from the five stories researched in
+`NOTES.md`:
 
 - COP31 ends with no climate deal (Antalya talks run past deadline)
 - Tankers hit in the Strait of Hormuz amid Iran-US tensions
